@@ -1,0 +1,21 @@
+ {% load static %}
+ <div class ="text-center my-4">
+        <img src="{% static 'core/images/baliram.jpg' %}" class="img-fluid img-thumbnail rounded-circle" width="100px" height="100px">
+        <h5 class="text-success">baliram Prajapati</h5>
+        <hr color="white" class="my-4" align="right">
+        </div>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link {{home}}" href="{% url 'home' %}">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{services}}" href="{% url 'services' %}">services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{skills}}" href="{% url 'skills' %}">skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{contact}}" href="{% url 'contact' %}">contact</a>
+          </li>
+          
+      </ul>

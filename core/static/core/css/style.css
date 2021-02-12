@@ -1,0 +1,30 @@
+body, html{
+    height:100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+.text_color{
+    color:beige;
+}
+.text_font{
+    font-family: 'Lobster', cursive
+}
+.tab_over:hover{
+    background-color: aqua;
+    color:blueviolet;
+    box-shadow: 0px 0px 0px 8px gray;
+    cursor: pointer;
+    transition-delay: .5;
+}
+.nav-link{
+    color:beige;
+}
+.nav-link:hover{
+    background-color: aquamarine;
+    color:black;
+}
+.nav-link.active{
+    background-color: chartreuse;
+    color: blue;
+}

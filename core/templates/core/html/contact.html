@@ -1,0 +1,45 @@
+{% extends 'core/html/base.html' %}
+{% block tab %}
+ <div class="container mb-5">
+   <h4 class="text-light">contact</h4>
+      <hr class="mb-3" color="white">
+   <div class="row">
+     
+     <div class="col-sm-4">
+       <form>
+         <input type="text" name="firstname" placeholder="enter first name" class="mb-3 form-control">
+         <input type="password" name="password" placeholder="enter your password" class="mb-3 form-control">
+         <input type="email" name="email" placeholder="enter your email" class="mb-3 form-control">
+         <input type="tel" name="tel" placeholder="enter your tel" class="mb-3 form-control">
+       </form>
+     </div>
+     <div class="col-sm-4">
+       <form>
+         <input type="website" name="firstname" placeholder="enter your website name" class="mb-3 form-control">
+         <span class="text-light">gender</span><br>
+         <input type="radio" name="gender" value="male" class="mb-3 text-light"> <span class="text-light">male</span><br>
+         <input type="radio" name="gender" value="female" class="mb-3"> <span class="text-light mb-3">female</span><br>
+         <select name="state" class="text-dark mb-3 form-control">
+         <option>utter predesh</option>
+         <option>madhya predesh</option>
+         <option>punjab</option>
+         <option>delhi</option>
+         </select>
+         <span class="text-light">address</span>
+         <textarea name="address" cols="40" rows="2" class="mb-5">
+         
+         </textarea>
+       </form>
+     </div>
+     <div class="col-sm-4 text-center">
+        <i class="fab fa-facebook mb-3 fa-3x text-warning"></i><br>
+        <i class="fab fa-github mb-3 fa-3x text-warning"></i><br>
+        <i class="fab fa-linkedin mb-3 fa-3x text-warning"></i><br>
+        <i class="fab fa-whatsapp mb-3 fa-3x text-warning"></i><br>
+     </div>
+   </div>
+ </div>
+{% endblock tab %}
+{% block hire %}
+
+{% endblock hire %}
